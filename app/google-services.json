@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "388535673376",
+    "firebase_url": "https://ocliney-6c72b.firebaseio.com",
+    "project_id": "ocliney-6c72b",
+    "storage_bucket": "ocliney-6c72b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388535673376:android:3c564df44af14e88",
+        "android_client_info": {
+          "package_name": "com.example.user.ocliney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388535673376-jk361ga9milpa76rgdtgvsfnph46fttv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tTOfcluDMtP8vnVGBZAWKbpuQplew1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
