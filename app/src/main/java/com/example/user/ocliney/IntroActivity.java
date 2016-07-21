@@ -1,5 +1,6 @@
 package com.example.user.ocliney;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,9 +16,9 @@ public class IntroActivity extends AppIntro {
         super.onCreate(savedInstanceState);
 
         addSlide(SampleSlide.newInstance(R.layout.activity_intro));
-        addSlide(SampleSlide.newInstance(R.layout.your_slide_here));
-        addSlide(SampleSlide.newInstance(R.layout.your_slide_here));
-        addSlide(SampleSlide.newInstance(R.layout.your_slide_here));
+        addSlide(SampleSlide.newInstance(R.layout.second_fragment));
+        addSlide(SampleSlide.newInstance(R.layout.third_fragment));
+        addSlide(SampleSlide.newInstance(R.layout.fourth_fragment));
 
         // OPTIONAL METHODS
         // Override bar/separator color.
@@ -35,6 +36,8 @@ public class IntroActivity extends AppIntro {
     public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);
         // Do something when users tap on Skip button.
+        Intent intent = new Intent(IntroActivity.this,MainActivity.class);
+        startActivity(intent);
 
     }
 
@@ -42,6 +45,8 @@ public class IntroActivity extends AppIntro {
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
         // Do something when users tap on Done button.
+        Intent intent = new Intent(IntroActivity.this,MainActivity.class);
+        startActivity(intent);
     }
 
     @Override
