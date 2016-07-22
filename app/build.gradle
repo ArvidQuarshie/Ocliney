@@ -33,7 +33,10 @@ dependencies {
     compile 'com.google.firebase:firebase-database:9.0.2'
     compile 'com.android.support:design:24.0.0'
     compile 'com.github.paolorotolo:appintro:4.0.0'
+<<<<<<< HEAD
 
+=======
+>>>>>>> d710a3c29ac2ed62d4eee50b51d1bc6461727d1a
 }
 
 apply plugin: 'com.google.gms.google-services'
