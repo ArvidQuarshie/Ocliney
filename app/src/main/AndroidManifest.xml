@@ -12,6 +12,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
+                <action android:name="android.intent.action.MAIN0" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -25,6 +33,8 @@
             <!--android:name=".Main3Activity"-->
             <!--android:label="@string/title_activity_main3"-->
             <!--android:theme="@style/AppTheme.NoActionBar"></activity>-->
+        <activity android:name="com.example.user.ocliney.intro"
+            android:label="@string/app_intro" />
     </application>
 
 </manifest>

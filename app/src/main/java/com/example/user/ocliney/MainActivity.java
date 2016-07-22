@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 
+
         lv = (ListView) findViewById(R.id.lv);
 
         //INITIALIZE FIREBASE DB
